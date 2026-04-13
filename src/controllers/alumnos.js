@@ -1,4 +1,4 @@
-let alumnos = []; // Tu base de datos en memoria
+let alumnos = []; 
 
 const getAlumnos = (req, res) => res.status(200).json(alumnos);
 

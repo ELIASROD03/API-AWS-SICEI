@@ -1,4 +1,4 @@
-let profesores = []; // Arreglo en memoria para profesores
+let profesores = []; 
 
 const getProfesores = (req, res) => {
     res.status(200).json(profesores);
